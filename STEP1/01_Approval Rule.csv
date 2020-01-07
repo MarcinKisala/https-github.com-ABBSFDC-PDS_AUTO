@@ -1,0 +1,71 @@
+Name,Apttus_Approval__Active__c,Apttus_Approval__ApprovalPolicy__c,Apttus_Approval__BusinessObject__c,Apttus_Approval__ContinuePolicyApprovalOnAReject__c,Apttus_Approval__CriteriaFieldNames__c,Apttus_Approval__Criteria__c,Apttus_Approval__Description__c,Apttus_Approval__MatchRule__c,Apttus_Approval__RuleType__c,Apttus_Approval__Sequence__c,Apttus_Approval__StopProcessingMoreRules__c,APTS_External_ID__c
+CLM-SE Agreement Termination,TRUE,Unanimous,Apttus__APTS_Agreement__c,FALSE,"Leading_Business_Unit__c
+Country_Global__c","{
+  ""sObjectName"" : ""Apttus__APTS_Agreement__c"",
+  ""sObjectLabel"" : ""Agreement"",
+  ""filter"" : {
+    ""predicates"" : [ {
+      ""RowNum"" : 1,
+      ""RHSFieldValueType"" : null,
+      ""RHSChildFilterName"" : null,
+      ""LHSFieldValueType"" : null,
+      ""LHSChildFilterName"" : null,
+      ""FieldValue"" : null,
+      ""FieldType"" : ""PICKLIST"",
+      ""FieldName"" : ""Leading_Business_Unit__c"",
+      ""FieldLabel"" : ""Leading Business Unit"",
+      ""CompOper"" : ""not equal to"",
+      ""BoolOper"" : ""AND""
+    }, {
+      ""RowNum"" : 2,
+      ""RHSFieldValueType"" : null,
+      ""RHSChildFilterName"" : null,
+      ""LHSFieldValueType"" : null,
+      ""LHSChildFilterName"" : null,
+      ""FieldValue"" : ""Sweden"",
+      ""FieldType"" : ""PICKLIST"",
+      ""FieldName"" : ""Country_Global__c"",
+      ""FieldLabel"" : ""Country"",
+      ""CompOper"" : ""equal to"",
+      ""BoolOper"" : ""AND""
+    } ],
+    ""condExpr"" : ""1 AND 2""
+  },
+  ""fields"" : [ ""Leading_Business_Unit__c"", ""Country_Global__c"" ],
+  ""exprStr"" : ""(Leading Business Unit != null) AND (Country = Sweden)""
+}",CLM - Approval rule for terminating the agreement for country Sweden,Match All,Condition,1,FALSE,AR-SE-000000AGRTER
+CLM-KR Agreement Termination,TRUE,Unanimous,Apttus__APTS_Agreement__c,FALSE,"Leading_Business_Unit__c
+Country_Global__c","{
+  ""sObjectName"" : ""Apttus__APTS_Agreement__c"",
+  ""sObjectLabel"" : ""Agreement"",
+  ""filter"" : {
+    ""predicates"" : [ {
+      ""RowNum"" : 1,
+      ""RHSFieldValueType"" : null,
+      ""RHSChildFilterName"" : null,
+      ""LHSFieldValueType"" : null,
+      ""LHSChildFilterName"" : null,
+      ""FieldValue"" : null,
+      ""FieldType"" : ""PICKLIST"",
+      ""FieldName"" : ""Leading_Business_Unit__c"",
+      ""FieldLabel"" : ""Leading Business Unit"",
+      ""CompOper"" : ""not equal to"",
+      ""BoolOper"" : ""AND""
+    }, {
+      ""RowNum"" : 2,
+      ""RHSFieldValueType"" : null,
+      ""RHSChildFilterName"" : null,
+      ""LHSFieldValueType"" : null,
+      ""LHSChildFilterName"" : null,
+      ""FieldValue"" : ""Korea, Republic of"",
+      ""FieldType"" : ""PICKLIST"",
+      ""FieldName"" : ""Country_Global__c"",
+      ""FieldLabel"" : ""Country"",
+      ""CompOper"" : ""equal to"",
+      ""BoolOper"" : ""AND""
+    } ],
+    ""condExpr"" : ""1 AND 2""
+  },
+  ""fields"" : [ ""Leading_Business_Unit__c"", ""Country_Global__c"" ],
+  ""exprStr"" : ""(Leading Business Unit != null) AND (Country = Korea, Republic of)""
+}",Condition+L3,Match All,Condition,1,FALSE,AR-KR-000000AGRTER

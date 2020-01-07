@@ -1,0 +1,12 @@
+#This template is for the dataloader configuration for any questions please contact Salesforce Devops
+#For the configuration with all fields please have a look at https://help.salesforce.com/articleView?id=loader_params.htm&type=5
+#Below Parameters are the minimum for the configuration
+
+process.operation=upsert
+sfdc.externalIdField=id
+sfdc.entity=Apttus_Approval__ApprovalRuleAssignee__c
+#example path from demo:
+#process.mappingFile=J\:/PDS_automation/etc/gbsdev0/STEP3/STEP3sdl
+process.mappingFile=[path to the folder]/STEP3/STEP3.sdl
+dataAccess.type=csvread
+dataAccess.name=[path to the folder]/STEP3/STEP3.csv

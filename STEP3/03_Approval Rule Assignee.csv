@@ -1,0 +1,9 @@
+Apttus_Approval__RuleEntryId__r.APTS_External_Id__c,Apttus_Approval__AssigneeType__c,Apttus_Approval__AssigneeValue__c,Apttus_Approval__AssigneeId__c,Apttus_Approval__DependsOn__c,Apttus_Approval__NotifyOnly__c,Apttus_Approval__SendEmail__c,Apttus_Approval__Sequence__c,Apttus_Approval__AssigneeAutoEscalate__c
+ARE-SE-00000000001,Queue,CLM SE/IA/IAEN,,,FALSE,TRUE,1,FALSE
+ARE-SE-00000000002,Queue,CLM SE/IA/IAMA,,,FALSE,TRUE,1,FALSE
+ARE-SE-00000000003,Queue,CLM SE/IA/IAPI,,,FALSE,TRUE,1,FALSE
+ARE-SE-00000000004,Queue,CLM SE/IA/IAMP,,,FALSE,TRUE,1,FALSE
+ARE-KR-00000000001,Queue,CLM KR/IA/IAEN,,,FALSE,TRUE,1,FALSE
+ARE-KR-00000000002,Queue,CLM KR/IA/IAMA,,,FALSE,TRUE,1,FALSE
+ARE-KR-00000000003,Queue,CLM KR/IA/IAPI,,,FALSE,TRUE,1,FALSE
+ARE-KR-00000000004,Queue,CLM KR/IA/IAMP,,,FALSE,TRUE,1,FALSE

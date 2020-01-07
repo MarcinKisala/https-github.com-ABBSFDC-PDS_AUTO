@@ -1,0 +1,8 @@
+#Mapping values
+#Thu Jan 24 09:57:59 IST 2019
+Name=Name
+GlobalPicklistField__c=GlobalPicklistField__c
+SourceField__c=SourceField__c
+TargetField__c=TargetField__c
+IsProductGroup__c=IsProductGroup__c
+ObjectAPI__c=ObjectAPI__c

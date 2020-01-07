@@ -1,0 +1,177 @@
+Apttus_Approval__ApprovalRuleId__r.APTS_External_ID__c,Apttus_Approval__AutoReapprovalCriteria__c,Apttus_Approval__AutoReapprove__c,Apttus_Approval__ConditionFieldNames__c,Apttus_Approval__Condition__c,Apttus_Approval__CriteriaFieldNames__c,Apttus_Approval__Description__c,Apttus_Approval__EntryLabel__c,Apttus_Approval__IncludePrevious__c,Apttus_Approval__Sequence__c,APTS_External_Id__c
+AR-SE-000000AGRTER,,FALSE,Leading_Business_Unit__c,"{
+  ""sObjectName"" : ""Apttus__APTS_Agreement__c"",
+  ""sObjectLabel"" : ""Agreement"",
+  ""filter"" : {
+    ""predicates"" : [ {
+      ""RowNum"" : 1,
+      ""RHSFieldValueType"" : null,
+      ""RHSChildFilterName"" : null,
+      ""LHSFieldValueType"" : null,
+      ""LHSChildFilterName"" : null,
+      ""FieldValue"" : ""IAEN"",
+      ""FieldType"" : ""PICKLIST"",
+      ""FieldName"" : ""Leading_Business_Unit__c"",
+      ""FieldLabel"" : ""Leading Business Unit"",
+      ""CompOper"" : ""equal to"",
+      ""BoolOper"" : null
+    } ],
+    ""condExpr"" : ""1""
+  },
+  ""fields"" : [ ""Leading_Business_Unit__c"" ],
+  ""exprStr"" : ""(Leading Business Unit = IAEN)""
+}",,Agreement termination,Sweden/IAEN: Agreement Termination,FALSE,1,ARE-SE-00000000001
+AR-SE-000000AGRTER,,FALSE,Leading_Business_Unit__c,"{
+  ""sObjectName"" : ""Apttus__APTS_Agreement__c"",
+  ""sObjectLabel"" : ""Agreement"",
+  ""filter"" : {
+    ""predicates"" : [ {
+      ""RowNum"" : 1,
+      ""RHSFieldValueType"" : null,
+      ""RHSChildFilterName"" : null,
+      ""LHSFieldValueType"" : null,
+      ""LHSChildFilterName"" : null,
+      ""FieldValue"" : ""IAMA"",
+      ""FieldType"" : ""PICKLIST"",
+      ""FieldName"" : ""Leading_Business_Unit__c"",
+      ""FieldLabel"" : ""Leading Business Unit"",
+      ""CompOper"" : ""equal to"",
+      ""BoolOper"" : null
+    } ],
+    ""condExpr"" : ""1""
+  },
+  ""fields"" : [ ""Leading_Business_Unit__c"" ],
+  ""exprStr"" : ""(Leading Business Unit = IAMA)""
+}",,Agreement termination,Sweden/IAMA: Agreement Termination,FALSE,2,ARE-SE-00000000002
+AR-SE-000000AGRTER,,FALSE,Leading_Business_Unit__c,"{
+  ""sObjectName"" : ""Apttus__APTS_Agreement__c"",
+  ""sObjectLabel"" : ""Agreement"",
+  ""filter"" : {
+    ""predicates"" : [ {
+      ""RowNum"" : 1,
+      ""RHSFieldValueType"" : null,
+      ""RHSChildFilterName"" : null,
+      ""LHSFieldValueType"" : null,
+      ""LHSChildFilterName"" : null,
+      ""FieldValue"" : ""IAPI"",
+      ""FieldType"" : ""PICKLIST"",
+      ""FieldName"" : ""Leading_Business_Unit__c"",
+      ""FieldLabel"" : ""Leading Business Unit"",
+      ""CompOper"" : ""equal to"",
+      ""BoolOper"" : null
+    } ],
+    ""condExpr"" : ""1""
+  },
+  ""fields"" : [ ""Leading_Business_Unit__c"" ],
+  ""exprStr"" : ""(Leading Business Unit = IAPI)""
+}",,Agreement termination,Sweden/IAPI: Agreement Termination,FALSE,3,ARE-SE-00000000003
+AR-SE-000000AGRTER,,FALSE,Leading_Business_Unit__c,"{
+  ""sObjectName"" : ""Apttus__APTS_Agreement__c"",
+  ""sObjectLabel"" : ""Agreement"",
+  ""filter"" : {
+    ""predicates"" : [ {
+      ""RowNum"" : 1,
+      ""RHSFieldValueType"" : null,
+      ""RHSChildFilterName"" : null,
+      ""LHSFieldValueType"" : null,
+      ""LHSChildFilterName"" : null,
+      ""FieldValue"" : ""IAMP"",
+      ""FieldType"" : ""PICKLIST"",
+      ""FieldName"" : ""Leading_Business_Unit__c"",
+      ""FieldLabel"" : ""Leading Business Unit"",
+      ""CompOper"" : ""equal to"",
+      ""BoolOper"" : null
+    } ],
+    ""condExpr"" : ""1""
+  },
+  ""fields"" : [ ""Leading_Business_Unit__c"" ],
+  ""exprStr"" : ""(Leading Business Unit = IAMP)""
+}",,Agreement termination,Sweden/IAMP: Agreement Termination,FALSE,4,ARE-SE-00000000004
+AR-KR-000000AGRTER,,FALSE,Leading_Business_Unit__c,"{
+  ""sObjectName"" : ""Apttus__APTS_Agreement__c"",
+  ""sObjectLabel"" : ""Agreement"",
+  ""filter"" : {
+    ""predicates"" : [ {
+      ""RowNum"" : 1,
+      ""RHSFieldValueType"" : null,
+      ""RHSChildFilterName"" : null,
+      ""LHSFieldValueType"" : null,
+      ""LHSChildFilterName"" : null,
+      ""FieldValue"" : ""IAEN"",
+      ""FieldType"" : ""PICKLIST"",
+      ""FieldName"" : ""Leading_Business_Unit__c"",
+      ""FieldLabel"" : ""Leading Business Unit"",
+      ""CompOper"" : ""equal to"",
+      ""BoolOper"" : null
+    } ],
+    ""condExpr"" : ""1""
+  },
+  ""fields"" : [ ""Leading_Business_Unit__c"" ],
+  ""exprStr"" : ""(Leading Business Unit = IAEN)""
+}",,Agreement termination,"Korea, Republic of/IAEN: Agreement Termination",FALSE,1,ARE-KR-00000000001
+AR-KR-000000AGRTER,,FALSE,Leading_Business_Unit__c,"{
+  ""sObjectName"" : ""Apttus__APTS_Agreement__c"",
+  ""sObjectLabel"" : ""Agreement"",
+  ""filter"" : {
+    ""predicates"" : [ {
+      ""RowNum"" : 1,
+      ""RHSFieldValueType"" : null,
+      ""RHSChildFilterName"" : null,
+      ""LHSFieldValueType"" : null,
+      ""LHSChildFilterName"" : null,
+      ""FieldValue"" : ""IAMA"",
+      ""FieldType"" : ""PICKLIST"",
+      ""FieldName"" : ""Leading_Business_Unit__c"",
+      ""FieldLabel"" : ""Leading Business Unit"",
+      ""CompOper"" : ""equal to"",
+      ""BoolOper"" : null
+    } ],
+    ""condExpr"" : ""1""
+  },
+  ""fields"" : [ ""Leading_Business_Unit__c"" ],
+  ""exprStr"" : ""(Leading Business Unit = IAMA)""
+}",,Agreement termination,"Korea, Republic of/IAMA: Agreement Termination",FALSE,2,ARE-KR-00000000002
+AR-KR-000000AGRTER,,FALSE,Leading_Business_Unit__c,"{
+  ""sObjectName"" : ""Apttus__APTS_Agreement__c"",
+  ""sObjectLabel"" : ""Agreement"",
+  ""filter"" : {
+    ""predicates"" : [ {
+      ""RowNum"" : 1,
+      ""RHSFieldValueType"" : null,
+      ""RHSChildFilterName"" : null,
+      ""LHSFieldValueType"" : null,
+      ""LHSChildFilterName"" : null,
+      ""FieldValue"" : ""IAPI"",
+      ""FieldType"" : ""PICKLIST"",
+      ""FieldName"" : ""Leading_Business_Unit__c"",
+      ""FieldLabel"" : ""Leading Business Unit"",
+      ""CompOper"" : ""equal to"",
+      ""BoolOper"" : null
+    } ],
+    ""condExpr"" : ""1""
+  },
+  ""fields"" : [ ""Leading_Business_Unit__c"" ],
+  ""exprStr"" : ""(Leading Business Unit = IAPI)""
+}",,Agreement termination,"Korea, Republic of/IAPI: Agreement Termination",FALSE,3,ARE-KR-00000000003
+AR-KR-000000AGRTER,,FALSE,Leading_Business_Unit__c,"{
+  ""sObjectName"" : ""Apttus__APTS_Agreement__c"",
+  ""sObjectLabel"" : ""Agreement"",
+  ""filter"" : {
+    ""predicates"" : [ {
+      ""RowNum"" : 1,
+      ""RHSFieldValueType"" : null,
+      ""RHSChildFilterName"" : null,
+      ""LHSFieldValueType"" : null,
+      ""LHSChildFilterName"" : null,
+      ""FieldValue"" : ""IAMP"",
+      ""FieldType"" : ""PICKLIST"",
+      ""FieldName"" : ""Leading_Business_Unit__c"",
+      ""FieldLabel"" : ""Leading Business Unit"",
+      ""CompOper"" : ""equal to"",
+      ""BoolOper"" : null
+    } ],
+    ""condExpr"" : ""1""
+  },
+  ""fields"" : [ ""Leading_Business_Unit__c"" ],
+  ""exprStr"" : ""(Leading Business Unit = IAMP)""
+}",,Agreement termination,"Korea, Republic of/IAMP: Agreement Termination",FALSE,4,ARE-KR-00000000004
